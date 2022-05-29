@@ -88,14 +88,24 @@ Switch statement examples
 //         console.log('num is neither one or two')
 // }
 
-var num = 2;
+// var num = 2;
 
-switch (true) {
-    case (num > 0):
-        console.log('num is either positive')
-    case (num < 0):
-        console.log('num is negative')
-        break;
-    default:
-        console.log('num is zero')
-}
+// switch (true) {
+//     case (num > 0):
+//         console.log('num is either positive')
+//     case (num < 0):
+//         console.log('num is negative')
+//         break;
+//     default:
+//         console.log('num is zero')
+// }
+
+// alert() // this will open up an alert box on your browser which will show any message that you pass in it
+// confirm() // will open up an alert box on your browser with the message that you pass inside it, but with two button to 'confirm' or 'cancel'
+// prompt() // will open up an alert box with an user input and two button 'ok' and 'cancel'
+
+// alert('Hello Class')
+// console.log(confirm('Are you ok?'))
+//  var getInput = prompt('Whats your name?')
+//  console.log(typeof(getInput), getInput)
+//  alert(getInput)
