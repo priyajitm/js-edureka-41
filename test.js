@@ -197,4 +197,7 @@ Math Methods:
 34. Math.tanh() - returns the hyperbolic tangent of a number.
 35. Math.trunc() - returns the integer part of a number, removing any fractional digits.
 
+
+
+
 */
