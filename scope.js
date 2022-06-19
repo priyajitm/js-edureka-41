@@ -17,3 +17,14 @@ Differences of Let & Var
 // 1. const cannot be re-declared or updated
 // 2. const must be initialized during declaration
 
+function outer() {
+    let counter = 0
+    function incrementCounter() {
+        counter++
+    }
+    return incrementCounter
+}
+
+const myNewFunction = outer()
+myNewFunction()
+myNewFunction()

@@ -201,3 +201,6 @@ Math Methods:
 
 
 */
+let john;
+console.log(john)
+john = 'hello'
